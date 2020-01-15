@@ -1,0 +1,13 @@
+.input-control {
+	min-width: 320px;
+}
+
+/*this tells css modules not to pre-pend anything to the button class, but allows that fot the search-button class*/
+:global(.button).search-button {
+	background: #bd1f1f;
+	border: none;
+}
+
+:global(.icon) {
+	color: white;
+}
