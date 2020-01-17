@@ -1,0 +1,8 @@
+:global(.button).subnav-button {
+	border-radius: 0;
+	border-bottom: 0;
+}
+
+:global(.button).omit-right-border {
+	border-right: none;
+}

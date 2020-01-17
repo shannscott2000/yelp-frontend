@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './SubNavItem.module.css';
 
 export function SubNavItem(props) {
 	return(
 		<div className="dropdown is-hoverable">
 		  <div className="dropdown-trigger">
-		    <button className="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+		    <button className={`button ${styles['subnav-button']} ${styles['omit-right-border']}`} aria-haspopup="true" aria-controls="dropdown-menu4">
 	    		<span className="icon is-small"><i className={`fas ${props.icon}`}></i></span>
 		      	<span>{props.label}</span>
 		      	<span className="icon is-small">
